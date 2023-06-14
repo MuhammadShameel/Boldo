@@ -10,6 +10,22 @@ module.exports = {
   ],
   theme: {
     extend: {},
+    screens: {
+      xs: "0px",
+      sm: "640px",
+      md: "768px",
+      lg: "1024px",
+      xl: "1280px",
+    },
+    fontFamily: {
+      manrope: ["Manrope", "sans-serif"],
+      "open-sans": ["Open Sans", "sans-serif"],
+    },
   },
-  plugins: [],
+
+  purge: [
+    "./app/**/*.{js,ts,jsx,tsx}",
+    "./components/**/*.{js,ts,jsx,tsx}",
+    "./src/**/*.{js,ts,jsx,tsx}", // Add your custom source directory path(s) here
+  ],
 };
