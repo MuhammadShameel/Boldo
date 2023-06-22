@@ -4,58 +4,57 @@ import Navbar from "./components/Navbar";
 const Home = () => {
   return (
     <div className="home">
-      <header
-        style={{ backgroundColor: "var(--green-color)" }}
-        className="home-head h-473"
-      >
+      <header className="home-head h-473 bg-secondary text-primary">
         <Navbar />
-        <div className="header-bottom grid sm:grid-cols-1 xs:flex-row mx-auto lg:grid-cols-2 xl:grid-cols-2 md:grid-cols-2 sm:p-10 xs:p-8 mt-20 pb-20 md:mt-10 md:pb-10 sm:mt-6 sm:pb-10 xs:mt-6 xs:pb-10">
-          <div className="p-1 sm:p-4 sm:text-center xs:text-center xs-p-2">
-            <div className="about-text text-left openSans font-color mb-4 md:mx-auto sm:mx-auto lg:mx-0 xs:mx-auto xs:mb-1">
-              About
+        <div className="lg:container mx-auto">
+          <div className="header-bottom grid sm:grid-cols-1 xs:flex-row mx-auto lg:grid-cols-2 xl:grid-cols-2 md:grid-cols-2 sm:p-10 xs:p-8 mt-20 pb-20 md:mt-10 md:pb-10 sm:mt-6 sm:pb-10 xs:mt-6 xs:pb-10">
+            <div className="p-1 sm:p-4 sm:text-center xs:text-center xs-p-2">
+              <div className="about-text text-left openSans font-color mb-4 md:mx-auto sm:mx-auto lg:mx-0 xs:mx-auto xs:mb-1">
+                About
+              </div>
+              <div className="xs:text-4xl main-title">
+                <p className="lg:text-5xl sub-title font-normal md:text-5xl sm:text-4xl xs:text-4xl text-left leading-[72px]">
+                  We love to make great things, things that matter.
+                </p>
+              </div>
             </div>
-            <div className="xs:text-4xl main-title">
-              <p className="lg:text-5xl sub-title font-normal md:text-5xl sm:text-4xl xs:text-4xl text-left leading-[72px]">
-                We love to make great things, things that matter.
+            <div className="p-4">
+              <p className="font-color font-light openSans text-lg lg:p-10 text-left lg:mt-0 md:mt-12 leading-[1.8]">
+                Funding handshake buyer business-to-business metrics iPad
+                partnership. First mover advantage innovator success deployment
+                non-disclosure.
               </p>
             </div>
-          </div>
-          <div className="p-4">
-            <p className="font-color font-light openSans text-lg lg:p-10 text-left lg:mt-0 md:mt-12 leading-[1.8]">
-              Funding handshake buyer business-to-business metrics iPad
-              partnership. First mover advantage innovator success deployment
-              non-disclosure.
-            </p>
           </div>
         </div>
       </header>
       <section className="py-16 my-16">
         <div className="container mx-auto">
-          <div className="center-heading text-[#0A2640] bg-white lg:h-96 z-10 w-1200">
-            <p className="flex justify-center items-center my-10 mx-auto text-3xl whitespace-normal text-center font-norma">
+          <div className="center-heading text-primary bg-white lg:h-96 z-10 w-1200">
+            <p className="flex justify-center items-center  mx-auto text-3xl whitespace-normal text-center font-normal">
               Our Members
             </p>
             <p className="flex justify-center items-center text-5xl leading-[72px] whitespace-normal text-center font-normal">
               Handshake infographic mass market <br /> crowdfunding iteration.
             </p>
-            <div className="flex flex-col md:flex-row justify-center gap-4 mt-8 space-x-4">
+            <div className="flex flex-col md:flex-row justify-center gap-20 mt-20 space-x-4">
               <div className="flex flex-col items-center py-141 px-141">
-                <p className="text-5xl lg:text-6xl md:text-5xl sm:text-4xl text-center">
+                <p className="text-5xl lg:text-7xl md:text-5xl sm:text-4xl text-center">
                   120m
                 </p>
-                <p className="text-center lg:text-1xl">cool feature title</p>
+                <p className="text-center lg:text-2xl">Cool feature title</p>
               </div>
               <div className="flex flex-col items-center py-141 px-141">
-                <p className="text-5xl lg:text-6xl md:text-5xl sm:text-4xl text-center">
+                <p className="text-5xl lg:text-7xl md:text-5xl sm:text-4xl text-center">
                   10.000
                 </p>
-                <p className="text-center lg:text-1xl">cool feature title</p>
+                <p className="text-center lg:text-2xl">Cool feature title</p>
               </div>
               <div className="flex flex-col items-center py-141 px-141">
-                <p className="text-5xl lg:text-6xl md:text-5xl sm:text-4xl text-center">
+                <p className="text-5xl lg:text-7xl md:text-5xl sm:text-4xl text-center">
                   240
                 </p>
-                <p className="text-center lg:text-1xl">cool feature title</p>
+                <p className="text-center lg:text-2xl">Cool feature title</p>
               </div>
             </div>
           </div>

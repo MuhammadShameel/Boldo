@@ -9,12 +9,12 @@ const Navbar = () => {
           <Image
             src="/images/logo.png"
             alt="Logo"
-            className="logo fill-[#84d117]"
+            className="logo"
             width={160.46}
             height={42}
           />
         </Link>
-        <ul className="font-medium flex flex-col p-4 md:p-0 mt-4 md:flex-row md:space-x-8 md:mt-0 md:border-0 hidden md:flex">
+        <ul className="font-medium  flex-col p-4 md:p-0 mt-4 md:flex-row md:space-x-8 md:mt-0 md:border-0 hidden md:flex">
           <li>
             <Link
               href="/product"

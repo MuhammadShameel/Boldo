@@ -1,16 +1,11 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = {
-  reactStrictMode: true,
-  generateStaticPath() {
-    return {
-      "/": { paths: paths || [], fallback: false }, // Add any additional routes you want to export
-    };
-  },
-  output: "export",
-  images: {
-    unoptimized: true,
-  },
-  // Other Next.js configurations
-};
+/**
+ * @type {import('next').NextConfig}
+ */
+const isProd = process.env.NODE_ENV === "production";
 
-module.exports = nextConfig;
+module.exports = {
+  images: {
+    loader: "default",
+  },
+  assetPrefix: isProd ? "https://cdn.mydomain.com" : "",
+};

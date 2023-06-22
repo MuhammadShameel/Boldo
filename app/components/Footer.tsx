@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const Footer = () => {
   return (
-    <footer className="bg-white lg:pt-32 md:pt-20 sm:pt-14 xs:pt-10">
+    <footer className="bg-white lg:pt-32 md:pt-20 sm:pt-14 mx-auto xs:pt-10">
       <section className="footer-top bg-[#0A2640] blue-bg lg:py-32 md:py-32 sm:py-10 xs:py-6 mx-auto lg:rounded-md lg:w-[1024px] relative top-0 bottom-0 left-0 right-0">
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -34,7 +34,7 @@ const Footer = () => {
         <div className="mx-auto w-full max-w-screen-xl">
           <div className="grid grid-cols-2 gap-8 px-4 py-6 lg:py-8 md:grid-cols-4">
             <div>
-              <ul className="grey-color font-medium lg:pr-20">
+              <ul className="grey-color font-medium lg:pr-20 text-[#777777]">
                 <li className="mb-8">
                   <a href="#" className="flex align-middle">
                     <Image
@@ -63,7 +63,7 @@ const Footer = () => {
               <h2 className="font-extrabold text-1xl uppercase font-color openSans mb-12">
                 Landings
               </h2>
-              <ul className="grey-color font-medium">
+              <ul className="text-[#777777] font-medium">
                 <li className="mb-4">
                   <a href="#" className="hover:underline">
                     Home
@@ -85,7 +85,7 @@ const Footer = () => {
               <h2 className="font-extrabold text-1xl uppercase font-color openSans mb-12">
                 Company
               </h2>
-              <ul className="grey-color font-medium openSans">
+              <ul className="grey-color font-medium openSans text-[#777777]">
                 <li className="mb-4">
                   <a href="#" className="hover:underline">
                     Home
@@ -110,7 +110,7 @@ const Footer = () => {
               <h2 className="font-extrabold text-1xl uppercase font-color openSans mb-12">
                 Resources
               </h2>
-              <ul className="grey-color font-medium openSans">
+              <ul className="grey-color font-medium openSans text-[#777777]">
                 <li className="mb-4">
                   <a href="#" className="hover:underline">
                     Blog
