@@ -49,7 +49,7 @@ const Navbar = () => {
             </a>
           </li>
         </ul>
-        <button className="md:hidden text-primary border-2 border-gray-900 rounded-full px-4 py-2 flex items-center">
+        <button className="md:hidden text-primary border-2 border-gray-900 rounded-full px-4 py-2 xs:ms-auto">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             className="h-6 w-6"

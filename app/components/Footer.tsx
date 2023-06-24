@@ -31,102 +31,135 @@ const Footer = () => {
         </div>
       </section>
       <section className="bg-white lg:mt-20 md:mt-16 sm:mt-10 xs:mt-8">
-        <div className="mx-auto w-full max-w-screen-xl">
-          <div className="grid grid-cols-2 gap-8 px-4 py-6 lg:py-8 md:grid-cols-4">
-            <div>
-              <ul className="grey-color font-medium lg:pr-20 text-[#777777]">
-                <li className="mb-8">
-                  <a href="#" className="flex align-middle">
-                    <Image
-                      src="/images/logo.png"
-                      alt="Logo"
-                      className="logo mr-2 mt-1"
-                      width={150}
-                      height={150}
-                    />{" "}
-                  </a>
-                </li>
-                <li className="mb-14 openSans">
-                  <a href="#">
-                    Social media validation business model canvas graphical user
-                    interface launch party creative facebook iPad twitter.
-                  </a>
-                </li>
-                <li className="mb-4 openSans">
-                  <a href="#" className="hover:underline">
-                    All rights reserved.
-                  </a>
-                </li>
-              </ul>
-            </div>
-            <div>
-              <h2 className="font-extrabold text-1xl uppercase font-color openSans mb-12">
-                Landings
-              </h2>
-              <ul className="text-[#777777] font-medium">
-                <li className="mb-4">
-                  <a href="#" className="hover:underline">
-                    Home
-                  </a>
-                </li>
-                <li className="mb-4">
-                  <a href="#" className="hover:underline">
-                    Products
-                  </a>
-                </li>
-                <li className="mb-4">
-                  <a href="#" className="hover:underline">
-                    Services
-                  </a>
-                </li>
-              </ul>
-            </div>
-            <div>
-              <h2 className="font-extrabold text-1xl uppercase font-color openSans mb-12">
-                Company
-              </h2>
-              <ul className="grey-color font-medium openSans text-[#777777]">
-                <li className="mb-4">
-                  <a href="#" className="hover:underline">
-                    Home
-                  </a>
-                </li>
-                <li className="mb-4">
-                  <a href="#" className="hover:underline">
-                    Careers
-                    <span className=" hiring-badge font-bold ml-2 w-180 bg-[#65e4a3] rounded-full px-2 py-2">
-                      Hiring!
-                    </span>
-                  </a>
-                </li>
-                <li className="mb-4">
-                  <a href="#" className="hover:underline">
-                    Services
-                  </a>
-                </li>
-              </ul>
-            </div>
-            <div>
-              <h2 className="font-extrabold text-1xl uppercase font-color openSans mb-12">
-                Resources
-              </h2>
-              <ul className="grey-color font-medium openSans text-[#777777]">
-                <li className="mb-4">
-                  <a href="#" className="hover:underline">
-                    Blog
-                  </a>
-                </li>
-                <li className="mb-4">
-                  <a href="#" className="hover:underline">
-                    Products
-                  </a>
-                </li>
-                <li className="mb-4">
-                  <a href="#" className="hover:underline">
-                    Services
-                  </a>
-                </li>
-              </ul>
+        <div className="container mx-auto">
+          <div className="max-w-screen-xl mx-auto px-4 py-6">
+            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
+              <div>
+                <ul className="grey-color font-medium text-[#777777]">
+                  <li className="mb-8">
+                    <a href="#" className="flex align-middle">
+                      <img
+                        src="/images/logo.png"
+                        alt="Logo"
+                        className="logo mr-2 mt-1"
+                        width="150"
+                        height="150"
+                      />
+                    </a>
+                  </li>
+                  <li className="mb-14 openSans text-neutral-500 text-[16px] font-normal leading-7">
+                    <a href="#">
+                      Social media validation business model canvas graphical
+                      user interface launch party creative facebook iPad
+                      twitter.
+                    </a>
+                  </li>
+                  <li className="mb-4 openSans">
+                    <a
+                      href="#"
+                      className="hover:underline text-neutral-500 text-[20px] font-normal leading-loose"
+                    >
+                      All rights reserved.
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <div>
+                <h2 className="font-extrabold text-1xl uppercase font-color openSans mb-12 ">
+                  Landings
+                </h2>
+                <ul className="text-[#777777] font-medium">
+                  <li className="mb-4">
+                    <a
+                      href="#"
+                      className="hover:underline text-neutral-500 text-[20px] font-normal leading-loose"
+                    >
+                      Home
+                    </a>
+                  </li>
+                  <li className="mb-4">
+                    <a
+                      href="#"
+                      className="hover:underline text-neutral-500 text-[20px] font-normal leading-loose"
+                    >
+                      Products
+                    </a>
+                  </li>
+                  <li className="mb-4">
+                    <a
+                      href="#"
+                      className="hover:underline text-neutral-500 text-[20px] font-normal leading-loose"
+                    >
+                      Services
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <div>
+                <h2 className="font-extrabold text-1xl uppercase font-color openSans mb-12">
+                  Company
+                </h2>
+                <ul className="grey-color font-medium openSans text-[#777777]">
+                  <li className="mb-4">
+                    <a
+                      href="#"
+                      className="hover:underline text-neutral-500 text-[20px] font-normal leading-loose"
+                    >
+                      Home
+                    </a>
+                  </li>
+                  <li className="mb-4">
+                    <a
+                      href="#"
+                      className="hover:underline text-neutral-500 text-[20px] font-normal leading-loose"
+                    >
+                      Careers
+                      <span className="hiring-badge font-bold ml-2 w-180 bg-[#65e4a3] rounded-full px-2 py-2">
+                        Hiring!
+                      </span>
+                    </a>
+                  </li>
+                  <li className="mb-4">
+                    <a
+                      href="#"
+                      className="hover:underline text-neutral-500 text-[20px] font-normal leading-loose"
+                    >
+                      Services
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <div>
+                <h2 className="font-extrabold text-1xl uppercase font-color openSans mb-12">
+                  Resources
+                </h2>
+                <ul className="grey-color font-medium openSans text-[#777777]">
+                  <li className="mb-4">
+                    <a
+                      href="#"
+                      className="hover:underline text-neutral-500 text-[20px] font-normal leading-loose"
+                    >
+                      Blog
+                    </a>
+                  </li>
+                  <li className="mb-4">
+                    <a
+                      href="#"
+                      className="hover:underline text-neutral-500 text-[20px] font-normal leading-loose"
+                    >
+                      Products
+                    </a>
+                  </li>
+                  <li className="mb-4">
+                    <a
+                      href="#"
+                      className="hover:underline text-neutral-500 text-[20px] font-normal leading-loose"
+                    >
+                      Services
+                    </a>
+                  </li>
+                </ul>
+              </div>
             </div>
           </div>
         </div>

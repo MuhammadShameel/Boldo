@@ -13,7 +13,7 @@ const Home = () => {
                 About
               </div>
               <div className="xs:text-4xl main-title">
-                <p className="lg:text-5xl sub-title font-normal md:text-5xl sm:text-4xl xs:text-4xl text-left leading-[72px]">
+                <p className="lg:text-5xl sub-title md:text-5xl sm:text-4xl xs:text-4xl text-left text-black text-[48px] font-normal leading-10">
                   We love to make great things, things that matter.
                 </p>
               </div>
@@ -34,27 +34,33 @@ const Home = () => {
             <p className="flex justify-center items-center  mx-auto text-3xl whitespace-normal text-center font-normal">
               Our Members
             </p>
-            <p className="flex justify-center items-center text-5xl leading-[72px] whitespace-normal text-center font-normal">
+            <p className="flex justify-center items-center whitespace-normal  text-center text-primary text-[48px] font-normal leading-15">
               Handshake infographic mass market <br /> crowdfunding iteration.
             </p>
             <div className="flex flex-col md:flex-row justify-center gap-20 mt-20 space-x-4">
-              <div className="flex flex-col items-center py-141 px-141">
-                <p className="text-5xl lg:text-7xl md:text-5xl sm:text-4xl text-center">
+              <div className="flex flex-col items-center py-141">
+                <p className=" text-primary-300 lg:text-[96px] md:text-[75px]  sm:text-[65px] xs:text-[65px] font-normal lg:leading-20 md:leading-20 sm:leading-20 xs:leading-10 lg:text-7xl md:text-5xl sm:text-4xl text-center">
                   120m
                 </p>
-                <p className="text-center lg:text-2xl">Cool feature title</p>
+                <p className="CoolFeatureTitle text-primary-100 lg:text-[24px] md:text-[24px] sm:text-[24px] xs:text-[24px] font-normal leading-9 ">
+                  Cool feature title
+                </p>
               </div>
-              <div className="flex flex-col items-center py-141 px-141">
-                <p className="text-5xl lg:text-7xl md:text-5xl sm:text-4xl text-center">
+              <div className="flex flex-col items-center py-141">
+                <p className="text-primary-300 lg:text-[96px] md:text-[75px]  sm:text-[65px] xs:text-[65px] font-normal lg:leading-20 md:leading-20 sm:leading-20 xs:leading-10  lg:text-7xl md:text-5xl sm:text-4xl text-center">
                   10.000
                 </p>
-                <p className="text-center lg:text-2xl">Cool feature title</p>
+                <p className="CoolFeatureTitle text-primary-100 lg:text-[24px] md:text-[24px] sm:text-[24px] xs:text-[24px] font-normal leading-9 ">
+                  Cool feature title
+                </p>
               </div>
-              <div className="flex flex-col items-center py-141 px-141">
-                <p className="text-5xl lg:text-7xl md:text-5xl sm:text-4xl text-center">
+              <div className="flex flex-col items-center py-141">
+                <p className="text-primary-300 lg:text-[96px] md:text-[75px]  sm:text-[65px] xs:text-[65px] font-normal lg:leading-20 md:leading-20 sm:leading-20 xs:leading-10  lg:text-7xl md:text-5xl sm:text-4xl text-center">
                   240
                 </p>
-                <p className="text-center lg:text-2xl">Cool feature title</p>
+                <p className="CoolFeatureTitle text-primary-100 lg:text-[24px] md:text-[24px] sm:text-[24px] xs:text-[24px] font-normal leading-9 ">
+                  Cool feature title
+                </p>
               </div>
             </div>
           </div>
